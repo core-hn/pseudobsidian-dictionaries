@@ -1,0 +1,2 @@
+*.dict.json linguist-generated=true
+*.dict.json -diff

@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "maintainer": "Axelle Abbadie",
+  "repository": "https://github.com/core-hn/pseudobsidian-dictionaries",
+  "dictionaries": [
+    {
+      "id": "fr-communes",
+      "label": "Communes françaises (GeoAPI INSEE)",
+      "description": "34 957 communes françaises — détection des lieux dans les transcriptions et remplacement par classe (Village, Petite_Ville, Ville, Grande_Ville, Métropole) avec index d'incrémentation.",
+      "type": "place",
+      "language": "fr",
+      "roles": {
+        "detection": true,
+        "replacement": true,
+        "classes": true
+      },
+      "size": 3946107,
+      "url": "https://raw.githubusercontent.com/core-hn/pseudobsidian-dictionaries/main/fr-communes.dict.json",
+      "recommended": true,
+      "license": "Licence Ouverte v2.0 / Open Licence v2.0",
+      "author": "Institut national de la statistique et des études économiques (INSEE)",
+      "source": "https://geo.api.gouv.fr/communes",
+      "generatedAt": "2026-05-13"
+    }
+  ]
+}
